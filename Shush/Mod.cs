@@ -4,7 +4,7 @@
     using Infrastructure;
     using Infrastructure.UI;
 
-    public class Mod : IUserMod, IUserModWithOptionsPanel<Mod>
+    public class Mod : IUserModWithOptionsPanel
     {
         public string Description
         {
