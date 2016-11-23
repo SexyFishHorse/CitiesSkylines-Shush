@@ -1,0 +1,3 @@
+[submodule "Infrastructure"]
+	path = Infrastructure
+	url = git@github.com:SexyFishHorse/CitiesSkylines-Infrastructure.git
