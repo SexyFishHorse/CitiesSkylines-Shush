@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE15AE1D-5380-4D64-808A-312B3F641B1C}"
 	ProjectSection(SolutionItems) = preProject
-		nuget.config = nuget.config
+		appveyor.yml = appveyor.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{88E18B13-734D-444F-8CBA-0FB1F1C86AFA}"
