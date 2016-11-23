@@ -33,9 +33,25 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Assembly-CSharp.1.4.1\lib\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ColossalManaged, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ColossalManaged.1.4.1\lib\ColossalManaged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="ICities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ICities.1.4.1\lib\ICities.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="SexyFishHorse.CitiesSkylines.Infrastructure, Version=1.0.6054.41177, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SexyFishHorse.CitiesSkylines.Infrastructure.1.0.6054.41177\lib\net45\SexyFishHorse.CitiesSkylines.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SexyFishHorse.CitiesSkylines.Logger, Version=1.0.6000.33657, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SexyFishHorse.CitiesSkylines.Logger.1.0.6000.33657\lib\net35-Unity Full v3.5\SexyFishHorse.CitiesSkylines.Logger.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,16 +61,14 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\UnityEngine.1.4.1\lib\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\Infrastructure\Infrastructure.csproj">
-      <Project>{AD014C29-9FB7-42E5-A88A-40BE0AEB6C0B}</Project>
-      <Name>Infrastructure</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
